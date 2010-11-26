@@ -23,7 +23,7 @@ A generator for creating web pages from jinja templates""",
       ],
       entry_points={
         'console_scripts': [
-            'sitegen = sitegen.generator:generate',
+            'sitegen = sitegen.generate:generate',
         ],
       },
 
