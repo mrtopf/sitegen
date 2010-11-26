@@ -1,14 +1,9 @@
+import os
+import uuid
 
 from quantumcore.resources import CSSResourceManager, CSSResource
 from quantumcore.resources import JSResourceManager, JSResource
-
 from jinja2 import Environment, FileSystemLoader
-
-import chameleon.zpt.template
-import pkg_resources
-import os
-import sys
-import uuid
 
 def generate_resources(cls, mgrcls, resourcelist, base, **kw):
     resources = []
