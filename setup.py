@@ -7,7 +7,7 @@ setup(name='sitegen',
       version=version,
       description="Site Generator",
       long_description="""\
-A generator for creating web pages from templates""",
+A generator for creating web pages from jinja templates""",
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='sitegenerator web html generation',
       author='Christian Scholz',
